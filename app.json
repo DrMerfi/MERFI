@@ -1,0 +1,6 @@
+{
+  "userIgnoreFilters": [
+    "00_Sistema/Engine/",
+    "Engine/"
+  ]
+}

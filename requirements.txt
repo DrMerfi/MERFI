@@ -1,0 +1,6 @@
+# Requisitos Minimos de M.E.R.F.I. Core
+python-dotenv>=1.0.0
+requests>=2.31.0
+google-genai>=0.1.0
+openai>=1.12.0
+anthropic>=0.18.0

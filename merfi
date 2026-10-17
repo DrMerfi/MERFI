@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+if command -v python3 >/dev/null 2>&1; then
+    python3 "$SCRIPT_DIR/00_Sistema/Engine/chat_merfi.py" "$@"
+elif command -v python >/dev/null 2>&1; then
+    python "$SCRIPT_DIR/00_Sistema/Engine/chat_merfi.py" "$@"
+else
+    echo "================================================================================"
+    echo "  [AVISO] No se detectó Python 3 en su sistema (macOS / Linux)."
+    echo "================================================================================"
+    echo "  Por favor instale Python 3.10+ mediante su gestor de paquetes:"
+    echo "    macOS: brew install python"
+    echo "    Ubuntu/Debian: sudo apt update && sudo apt install -y python3 python3-pip"
+    echo "================================================================================"
+    exit 1
+fi

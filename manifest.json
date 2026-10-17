@@ -1,0 +1,9 @@
+{
+  "id": "merfi-companion",
+  "name": "MERFI Companion HUD & Quality Assistant",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Acompañante interactivo y HUD de alta productividad para M.E.R.F.I. con avatar personalizable, física de mirada, consola de diálogo y cronómetro Pomodoro.",
+  "author": "M.E.R.F.I. Core Team",
+  "isDesktopOnly": true
+}

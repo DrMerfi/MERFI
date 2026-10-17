@@ -1,0 +1,37 @@
+# Entornos y Secretos
+.env
+*.env.local
+*.env.*.local
+
+# Python y Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+env/
+venv/
+ENV/
+
+# Bases de Datos Locales
+*.db
+*.sqlite
+*.sqlite3
+merfi.db
+
+# Logs y Telemetria Local
+*.log
+daemon.log
+.merfi_telemetry.json
+.merfi_chat.json
+
+# Archivos del Sistema Operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Obsidian Config Privada (opcional: sincronizaciones o sesiones locales)
+Vault_Template/.obsidian/workspace.json
+Vault_Template/.obsidian/workspace-mobile.json
+Vault_Template/.obsidian/sync/
+Vault_Template/.obsidian/cache/

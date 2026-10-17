@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Node / Electron
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Secretos y Credenciales Locales
+.env
+!.env.example
+*.pem
+*.key
+
+# Bases de datos locales de cache
+*.db
+*.sqlite3
+!merfi_schema.sql
+
+# Obsidian y Sistema Operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+
+# Bandejas de Entrada Locales del Usuario (Preservar estructura con .gitkeep)
+10_Entrada/SIN_PROCESAR/Archivos/*
+!10_Entrada/SIN_PROCESAR/Archivos/.gitkeep
+10_Entrada/SIN_PROCESAR/Imagenes/*
+!10_Entrada/SIN_PROCESAR/Imagenes/.gitkeep
+10_Entrada/SIN_PROCESAR/Videos/*
+!10_Entrada/SIN_PROCESAR/Videos/.gitkeep
+10_Entrada/Procesados/Archivos/*
+!10_Entrada/Procesados/Archivos/.gitkeep
+10_Entrada/Procesados/Imagenes/*
+!10_Entrada/Procesados/Imagenes/.gitkeep
+10_Entrada/Procesados/Videos/*
+!10_Entrada/Procesados/Videos/.gitkeep
